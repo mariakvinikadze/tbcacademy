@@ -1,46 +1,63 @@
+import usaidImg from '../images/partners/usaid.webp'
+import spaceImg from '../images/partners/space.webp'
+import tnetImg from '../images/partners/tnet.webp'
+import tegetaImg from '../images/partners/tegeta.webp'
+import spectreImg from '../images/partners/spectre.webp'
+import tbcLeasingImg from '../images/partners/tbc-leasing.webp'
+import ufcImg from '../images/partners/ufc.webp'
+import iosImg from '../images/courses/ios.webp'
+import reactImg from '../images/courses/react.webp'
+import pythonImg from '../images/courses/python.webp'
+import pythonAdvancedImg from '../images/courses/python-advanced.webp'
+import cyberSecurityImg from '../images/courses/cybersecurity.webp'
+import totImg from '../images/courses/tot.webp'
+import blockchainImg from '../images/courses/blockchain.webp'
+import devopsImg from '../images/courses/devops.webp'
+import informationSecurityImg from '../images/courses/information-security.webp'
+
 export const courses = [
     {
-        imageUrl: "../images/courses/ios.webp",
+        imageUrl: iosImg,
         title: "iOS Development",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/react.webp",
+        imageUrl: reactImg,
         title: "React",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/python.webp",
+        imageUrl: pythonImg,
         title: "Intro to Python",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/python-advanced.webp",
+        imageUrl: pythonAdvancedImg,
         title: "Advanced Python",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/cybersecurity.webp",
+        imageUrl: cyberSecurityImg,
         title: "Advanced Cybersecurity Course",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/tot.webp",
+        imageUrl: totImg,
         title: "ToT - Training of Trainers",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/blockchain.webp",
+        imageUrl: blockchainImg,
         title: "Blockchain",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/devops.webp",
+        imageUrl: devopsImg,
         title: "DevOps",
         description: "რეგისტრაცია დასრულებულია"
     },
     {
-        imageUrl: "../images/courses/information-security.webp",
+        imageUrl: informationSecurityImg,
         title: "Information Security Governance",
         description: "რეგისტრაცია დასრულებულია"
     },
@@ -54,14 +71,13 @@ export const navItems = [
 ]
 
 export const slideImages = [
-    '../images/partners/usaid.webp',
-    '../images/partners/space.webp',
-    '../images/partners/tnet.webp',
-    '../images/partners/tegeta.webp',
-    '../images/partners/spectre.webp',
-    '../images/partners/tbc-leasing.webp',
-    '../images/partners/ufc.webp',
-
+    usaidImg,
+    spaceImg,
+    tnetImg,
+    tegetaImg,
+    spectreImg,
+    tbcLeasingImg,
+    ufcImg,
 ];
 
 export const accordionData = [
