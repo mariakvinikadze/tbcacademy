@@ -111,7 +111,7 @@ body {
   }
 
   &.active {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(-50%);
     .bar {
       &:nth-child(1) {
         background-color: rgb(118,118,118);
